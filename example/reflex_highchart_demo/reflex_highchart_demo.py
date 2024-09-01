@@ -1,9 +1,6 @@
 """Welcome to Reflex! This file showcases the custom component in a basic app."""
 
-from rxconfig import config
-
 import reflex as rx
-
 from reflex_highchart import reflex_highchart
 
 
