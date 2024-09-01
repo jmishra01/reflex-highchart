@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "reflex-highchart"
+version = "0.0.1"
+description = """reflex-highcharts is a powerful component designed to integrate the popular charting library,
+Highcharts, into your Reflex web applications."""
+readme = "README.md"
+license = { text = "Apache-2.0" }
+requires-python = ">=3.8"
+authors = [{ name = "Jitendra Mishra", email = "jitendra29mishra@gmail.com" }]
+keywords = ["reflex", "reflex-custom-components", "Highchart", "Visualization", "Python", "SSR"]
+
+dependencies = ["reflex>=0.4.2"]
+
+classifiers = ["Development Status :: 4 - Beta"]
+
+[project.urls]
+
+[project.optional-dependencies]
+dev = ["build", "twine"]
+
+[tool.setuptools.packages.find]
+where = ["reflex-highchart"]

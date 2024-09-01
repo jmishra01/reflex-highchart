@@ -1,0 +1,2 @@
+reflex==0.5.9
+reflex-highchart==0.0.1
